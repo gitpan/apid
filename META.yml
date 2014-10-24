@@ -1,0 +1,36 @@
+--- #YAML:1.0
+name:               apid
+version:            0.02
+abstract:           ~
+author:  []
+license:            perl
+distribution_type:  module
+configure_requires:
+    ExtUtils::MakeMaker:  0
+build_requires:
+    ExtUtils::MakeMaker:  0
+requires:
+    CGI::Cookie:          0
+    Config::General:      0
+    Crypt::Random:        0
+    Daemon::Generic:      0
+    Data::Dumper:         0
+    Data::Validate::Struct:  0
+    DB_File:              0
+    Digest::SHA:          0
+    HTTP::Daemon:         0
+    HTTP::Daemon::SSL:    0
+    HTTP::Request::Params:  0
+    JSON:                 0
+    MIME::Base64:         0
+    URI::Escape:          0
+resources:
+    repository:  https://github.com/TLINDEN/apid
+no_index:
+    directory:
+        - t
+        - inc
+generated_by:       ExtUtils::MakeMaker version 6.56
+meta-spec:
+    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
+    version:  1.4
